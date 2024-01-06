@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.large-text {
+    font-size: 40px;
+
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+#background {
+
+    width: 100%;
+    margin-top: -10px;
+}
+
+
+
+#green2 {
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+}
+
+
+header {
+    position: fixed;
+    /*固定導覽列*/
+    background-color: rgb(83, 83, 83, 0);
+    height: 80px;
+    width: 100%;
+    z-index: 3;
+}
+
+header li {
+
+    /*以視窗的百分之三為距離排列*/
+    margin-right: 4vw;
+    list-style: none;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 80px;
+    margin-left: 2vw;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /*取消文字裝飾*/
+    font-size: 30px;
+    text-decoration: underline;
+
+    /* 添加底線 */
+}
+
+header a:hover {
+    text-decoration: underline;
+    /*滑鼠移動上加底線*/
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    line-height: 80px;
+    z-index: 3;
+
+}
+
+
+.Layout1 {
+    position: absolute;
+    background-color: rgb(89, 100, 100, 0);
+    display: flex;
+    /* 使用 Flexbox 佈局 */
+    justify-content: center;
+    /* 在主軸上（水平）置中 */
+    align-items: center;
+    /* 在交叉軸上（垂直）置中 */
+    height: 100%;
+    width: 100%;
+    /* 設定元素高度，這樣文字垂直置中生效 */
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.Layout2 {
+    position: absolute;
+    background-color: rgba(56, 59, 59, 0);
+    top: 120%;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.Layout2 p {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 2;
+}
+
+#yama {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 60%;
+    border-radius: 8px;
+    /* 添加圓角 */
+}
+
+.Layout2 h3 {
+    position: absolute;
+    font-size: 200px;
+    top: 20%;
+    left: 15%;
+
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.Layout3 {
+    position: absolute;
+    background-color: rgba(56, 59, 59, 0);
+    top: 200%;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.Layout3 p {
+    position: absolute;
+    top: 30%;
+    right: 12%;
+
+}
+
+#bird {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    right: 60%;
+    border-radius: 8px;
+    z-index: 2;
+
+    /* 添加圓角 */
+}
+
+.Layout3 h3 {
+    position: absolute;
+    font-size: 200px;
+    top: 20%;
+    right: 35%;
+
+    color: rgba(255, 255, 255, 0.3)
+}
