@@ -19,6 +19,13 @@
     margin-top: -10px;
 }
 
+#background2 {
+
+    width: 100%;
+    height: 350px;
+    margin-top: -10px;
+}
+
 
 
 #green2 {
@@ -122,6 +129,7 @@ h2 {
     left: 60%;
     border-radius: 8px;
     /* 添加圓角 */
+
 }
 
 .Layout2 h3 {
@@ -167,4 +175,72 @@ h2 {
     right: 35%;
 
     color: rgba(255, 255, 255, 0.3)
+}
+
+.Layout4 {
+    position: absolute;
+    background-color: rgba(56, 59, 59, 0);
+    top: 300%;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.Layout4 p {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+}
+
+#flower {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 60%;
+    border-radius: 8px;
+    z-index: 2;
+
+    /* 添加圓角 */
+}
+
+.Layout4 h3 {
+    position: absolute;
+    font-size: 200px;
+    top: 20%;
+    left: 15%;
+
+    color: rgba(255, 255, 255, 0.3)
+}
+
+footer {
+    color: aliceblue;
+    display: flex;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -5px;
+    align-items: center;
+
+
+}
+
+.F1 {
+    font-size: 60px;
+    text-align: center;
+    flex: 4;
+
+}
+
+
+
+.F2 {
+    display: flex;
+    text-align: center;
+    text-align: left;
+    flex: 6;
+}
+
+.F2 p {
+    flex: 1;
+
 }

@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <!-- aos動畫 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </head>
+
+
 
 <body>
     <header>
@@ -25,7 +31,7 @@
         </section>
         <section class="Layout2">
             <h3>01</h3>
-            <img src="image/yama.png" alt="山" id="yama">
+            <img src="image/yama.png" alt="山" id="yama" data-aos="fade-left">
             <p><span class="large-text">山峰巍峨森林翠綠</span><br>
                 在森林的深處，自然的奇蹟展開，樹木繁茂的綠意彌漫<br>
                 似乎每一片葉子都在輕聲述說著生命的故事<br>
@@ -37,7 +43,7 @@
         </section>
         <section class="Layout3">
             <h3>02</h3>
-            <img src="image/bird.jpg" alt="山" id="bird">
+            <img src="image/bird.jpg" alt="鳥" id="bird" data-aos="fade-right">
             <p><span class="large-text">鳥語林間自然和諧</span><br>
                 在森林的靜謐中，鳥兒翩翩起舞<br>
                 它們的歌聲如同音符般在樹梢間翻飛<br>
@@ -47,18 +53,44 @@
                 在這片綠意盎然的森林中，鳥兒與樹木共同述說著大自然奇妙而和諧的故事
             </p>
         </section>
+        <section class="Layout4">
+            <h3>03</h3>
+            <img src="image/flower.png" alt="花" id="flower" data-aos="fade-left">
+            <p><span class="large-text">鳥語林間自然和諧</span><br>
+                在森林的深處，繁花綻放成一片如夢如幻的花海<br>
+                種色彩交織出生命的繽紛繚亂<br>
+                每一朵花兒，都在樹木的擁抱中綻放著屬於自己的美麗篇章<br>
+                如同大自然的詩行，寫就出一幅充滿生機與和諧的畫卷<br>
+                微風拂過，花香彌漫在空氣中，讓人彷彿置身於花的仙境<br>
+                這是大地賜予我們的一場夢幻花語的饗宴
+            </p>
+        </section>
+
+
 
         <img src="image/forest.png" alt="背景" id="background">
         <img src="image/green2.png" alt="背景" id="background">
+        <img src="image/green2.png" alt="背景" id="background2">
 
 
 
 
     </main>
     <footer>
-
+        <div class="F1">
+            <p>FOREST</p>
+        </div>
+        <div class="F2">
+            <p>山<br>Mountain<br>やま<br>Berg<br>Montagne</p>
+            <p>鳥<br>Bird<br>とり<br>Vogel<br>oiseau</p>
+            <p>花<br>Flower<br>はな<br>Blume<br>fleur</p>
+        </div>
     </footer>
-
+    <script>
+        AOS.init();
+    </script>
 </body>
+
+
 
 </html>
