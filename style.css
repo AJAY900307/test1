@@ -26,7 +26,9 @@
     margin-top: -10px;
 }
 
-
+p {
+    line-height: 2.5;
+}
 
 #green2 {
     position: relative;
@@ -64,9 +66,7 @@ header a {
     text-decoration: none;
     /*取消文字裝飾*/
     font-size: 30px;
-    text-decoration: underline;
-
-    /* 添加底線 */
+    text-shadow: 2px 2px 4px #333;
 }
 
 header a:hover {
@@ -98,10 +98,23 @@ header ul {
     /* 設定元素高度，這樣文字垂直置中生效 */
 }
 
+h4 {
+
+    position: fixed;
+    text-align: center;
+    right: 7%;
+    writing-mode: vertical-rl;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #333;
+
+}
+
 h2 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 50px;
+    text-shadow: 2px 2px 4px #333;
 }
 
 .Layout2 {
@@ -138,7 +151,7 @@ h2 {
     top: 20%;
     left: 15%;
 
-    color: rgba(255, 255, 255, 0.3)
+    color: rgba(255, 255, 255, 0.1)
 }
 
 .Layout3 {
@@ -174,7 +187,7 @@ h2 {
     top: 20%;
     right: 35%;
 
-    color: rgba(255, 255, 255, 0.3)
+    color: rgba(255, 255, 255, 0.1)
 }
 
 .Layout4 {
@@ -210,7 +223,7 @@ h2 {
     top: 20%;
     left: 15%;
 
-    color: rgba(255, 255, 255, 0.3)
+    color: rgba(255, 255, 255, 0.1)
 }
 
 footer {
